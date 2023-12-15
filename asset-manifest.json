@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/usestate-examples-react/static/css/main.46e47259.css",
+    "main.js": "/usestate-examples-react/static/js/main.e259149e.js",
+    "static/js/787.4c159c96.chunk.js": "/usestate-examples-react/static/js/787.4c159c96.chunk.js",
+    "index.html": "/usestate-examples-react/index.html",
+    "main.46e47259.css.map": "/usestate-examples-react/static/css/main.46e47259.css.map",
+    "main.e259149e.js.map": "/usestate-examples-react/static/js/main.e259149e.js.map",
+    "787.4c159c96.chunk.js.map": "/usestate-examples-react/static/js/787.4c159c96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46e47259.css",
+    "static/js/main.e259149e.js"
+  ]
+}
