@@ -28,6 +28,7 @@ const VideoDisplay = () => {
   const [currentVideo, setCurrentVideo] = useState(0);
   const [likes, setLikes] = useState(new Array(videos.length).fill(0));
   const [dislikes, setDislikes] = useState(new Array(videos.length).fill(0));
+  const touchStartY = useRef(0);
 
   useEffect(() => {
     const handleKeyPress = (event) => {
@@ -46,19 +47,26 @@ const VideoDisplay = () => {
   }, [currentVideo]);
 
   useEffect(() => {
-    const handleSwipe = (event) => {
-      const deltaY = event.deltaY;
-      if (deltaY > 0) {
-        navigate('next');
-      } else {
+    const handleTouchStart = (event) => {
+      touchStartY.current = event.touches[0].clientY;
+    };
+
+    const handleTouchEnd = (event) => {
+      const touchEndY = event.changedTouches[0].clientY;
+      const deltaY = touchEndY - touchStartY.current;
+      if (deltaY > 50) {
         navigate('prev');
+      } else if (deltaY < -50) {
+        navigate('next');
       }
     };
 
-    document.addEventListener('wheel', handleSwipe);
+    document.addEventListener('touchstart', handleTouchStart);
+    document.addEventListener('touchend', handleTouchEnd);
 
     return () => {
-      document.removeEventListener('wheel', handleSwipe);
+      document.removeEventListener('touchstart', handleTouchStart);
+      document.removeEventListener('touchend', handleTouchEnd);
     };
   }, [currentVideo]);
 
@@ -125,13 +133,13 @@ const VideoDisplay = () => {
       <div className='secondMain'>
         <div className='likeButton'>
           <button style={{ color: likes[currentVideo] ? 'blue' : 'gray' }} onClick={handleLike}>
-          <i class="fa-regular fa-thumbs-up"></i>
+            Like
           </button>
           <span>{likes[currentVideo] ? '1' : '0'}</span>
         </div>
         <div className='dislikeButton'>
           <button style={{ color: dislikes[currentVideo] ? 'blue' : 'gray' }} onClick={handleDislike}>
-          <i class="fa-regular fa-thumbs-down"></i>
+            Dislike
           </button>
           <span>{dislikes[currentVideo] ? '1' : '0'}</span>
         </div>
