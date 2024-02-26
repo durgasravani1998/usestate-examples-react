@@ -1,15 +1,45 @@
 {
   "files": {
     "main.css": "/usestate-examples-react/static/css/main.0a958077.css",
-    "main.js": "/usestate-examples-react/static/js/main.e259149e.js",
+    "main.js": "/usestate-examples-react/static/js/main.caec5c9b.js",
+    "reactPlayerYouTube.js": "/usestate-examples-react/static/js/reactPlayerYouTube.4b3af3ee.chunk.js",
+    "reactPlayerSoundCloud.js": "/usestate-examples-react/static/js/reactPlayerSoundCloud.8fcec574.chunk.js",
+    "reactPlayerVimeo.js": "/usestate-examples-react/static/js/reactPlayerVimeo.8c991693.chunk.js",
+    "reactPlayerFacebook.js": "/usestate-examples-react/static/js/reactPlayerFacebook.ec070943.chunk.js",
+    "reactPlayerStreamable.js": "/usestate-examples-react/static/js/reactPlayerStreamable.febabc83.chunk.js",
+    "reactPlayerWistia.js": "/usestate-examples-react/static/js/reactPlayerWistia.9da26011.chunk.js",
+    "reactPlayerTwitch.js": "/usestate-examples-react/static/js/reactPlayerTwitch.13b6cb5e.chunk.js",
+    "reactPlayerDailyMotion.js": "/usestate-examples-react/static/js/reactPlayerDailyMotion.41ac3f24.chunk.js",
+    "reactPlayerMixcloud.js": "/usestate-examples-react/static/js/reactPlayerMixcloud.62cbb6a6.chunk.js",
+    "reactPlayerVidyard.js": "/usestate-examples-react/static/js/reactPlayerVidyard.957a4ccb.chunk.js",
+    "reactPlayerKaltura.js": "/usestate-examples-react/static/js/reactPlayerKaltura.153f225c.chunk.js",
+    "reactPlayerFilePlayer.js": "/usestate-examples-react/static/js/reactPlayerFilePlayer.0aaef5d8.chunk.js",
+    "reactPlayerPreview.js": "/usestate-examples-react/static/js/reactPlayerPreview.1a370085.chunk.js",
     "static/js/787.4c159c96.chunk.js": "/usestate-examples-react/static/js/787.4c159c96.chunk.js",
+    "static/media/video2.mp4": "/usestate-examples-react/static/media/video2.00feedde0cc7c066474f.mp4",
+    "static/media/video4.mp4": "/usestate-examples-react/static/media/video4.87b7f2f99b47b006cfab.mp4",
+    "static/media/video3.mp4": "/usestate-examples-react/static/media/video3.55b063e2fdaeb5386d50.mp4",
+    "static/media/video1.mp4": "/usestate-examples-react/static/media/video1.7247a6f707e7b182850d.mp4",
     "index.html": "/usestate-examples-react/index.html",
     "main.0a958077.css.map": "/usestate-examples-react/static/css/main.0a958077.css.map",
-    "main.e259149e.js.map": "/usestate-examples-react/static/js/main.e259149e.js.map",
+    "main.caec5c9b.js.map": "/usestate-examples-react/static/js/main.caec5c9b.js.map",
+    "reactPlayerYouTube.4b3af3ee.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerYouTube.4b3af3ee.chunk.js.map",
+    "reactPlayerSoundCloud.8fcec574.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerSoundCloud.8fcec574.chunk.js.map",
+    "reactPlayerVimeo.8c991693.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerVimeo.8c991693.chunk.js.map",
+    "reactPlayerFacebook.ec070943.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerFacebook.ec070943.chunk.js.map",
+    "reactPlayerStreamable.febabc83.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerStreamable.febabc83.chunk.js.map",
+    "reactPlayerWistia.9da26011.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerWistia.9da26011.chunk.js.map",
+    "reactPlayerTwitch.13b6cb5e.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerTwitch.13b6cb5e.chunk.js.map",
+    "reactPlayerDailyMotion.41ac3f24.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerDailyMotion.41ac3f24.chunk.js.map",
+    "reactPlayerMixcloud.62cbb6a6.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerMixcloud.62cbb6a6.chunk.js.map",
+    "reactPlayerVidyard.957a4ccb.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerVidyard.957a4ccb.chunk.js.map",
+    "reactPlayerKaltura.153f225c.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerKaltura.153f225c.chunk.js.map",
+    "reactPlayerFilePlayer.0aaef5d8.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerFilePlayer.0aaef5d8.chunk.js.map",
+    "reactPlayerPreview.1a370085.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerPreview.1a370085.chunk.js.map",
     "787.4c159c96.chunk.js.map": "/usestate-examples-react/static/js/787.4c159c96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a958077.css",
-    "static/js/main.e259149e.js"
+    "static/js/main.caec5c9b.js"
   ]
 }
