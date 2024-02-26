@@ -137,19 +137,25 @@ const VideoDisplay = () => {
         </div>
       ))}
       <div className='secondMain'>
-        <div className='likeButton'>
-          <button style={{ color: likes[currentVideo] ? 'blue' : 'gray' }} onClick={handleLike}>
+        <div className='secondMainIn'> 
+          <div className=''>
+            <div className='likeButton'>          <button style={{ color: likes[currentVideo] ? 'blue' : 'gray' }} onClick={handleLike}>
           <i class="fa-regular fa-thumbs-up"></i>
           </button>
           <span>{likes[currentVideo] ? '1' : '0'}</span>
         </div>
+        
+
         <div className='dislikeButton'>
           <button style={{ color: dislikes[currentVideo] ? 'blue' : 'gray' }} onClick={handleDislike}>
           <i class="fa-regular fa-thumbs-down"></i>
           </button>
           <span>{dislikes[currentVideo] ? '1' : '0'}</span>
         </div>
+        </div>
       </div>
+      </div>
+
     </div>
   );
 };

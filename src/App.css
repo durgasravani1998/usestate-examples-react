@@ -169,86 +169,58 @@ i{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height:76vh ;
+    /* width: 100%; */
+    height:76vh;
     height:100vh ;
     position: relative;
+    /* background-color: red; */
   }
   .firstMain{
-    
+    width: ;
     height: 90vh;
+    position: absolute;
+    /* background-color: pink; */
+
   
   }
   .videoMain{
     display: flex;
     flex-direction: column;
-    /* background-color: brown; */
+    /* background-color: blue; */
     position: relative;
   }
   .title{
     position: absolute;
     left:10%;
-    top:80%;
+    top:70%;
     margin-left:5%;
     width: 300px;
     height: 100px;
-    /* background-color: aqua; */
+  
     color: rgb(35, 22, 5);
   }
   
   
-  .secondMain{
-    width: 100px;
-    /* background-color: yellow; */
-    margin-top: 0%;
-    padding: 1%;
-    /* margin-left:1%; */
-    z-index: 1;
-    position: absolute;
-    right: 30px;
-    bottom: 150px;
-    /* background-color: red; */
-    
-   
-  }
-  .likeButton{
-    width: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    /* background-color: yellow; */
+.secondMain{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
   
-  }
-  .dislikeButton{
-    width: 30px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-  
-  }
-  span{
-    margin-left: 10px;
-  }
-  button{
-    /* width: 40%; */
-    border: none;
-    background-color:transparent;
-    
-    
-  }
-  
-  i{
-    font-size: 25px;
-    background-color:none;
-    /* border-radius: 0%; */
-    z-index: 1;
-    color: rgb(15, 13, 13);
-    
-    
-  }
-  
+  position: absolute;
+}
+
+.secondMainIn{
+  position: relative;
+  top: 50%;
+  left: 95%;
+}
+button{
+  background-color: transparent;
+}
+i{
+  color: rgb(15, 13, 13);
+}
 
   
 }
