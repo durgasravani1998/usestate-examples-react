@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/usestate-examples-react/static/css/main.acb7c4a8.css",
-    "main.js": "/usestate-examples-react/static/js/main.a5051316.js",
+    "main.css": "/usestate-examples-react/static/css/main.b8e7c28c.css",
+    "main.js": "/usestate-examples-react/static/js/main.f613f491.js",
     "reactPlayerYouTube.js": "/usestate-examples-react/static/js/reactPlayerYouTube.4b3af3ee.chunk.js",
     "reactPlayerSoundCloud.js": "/usestate-examples-react/static/js/reactPlayerSoundCloud.8fcec574.chunk.js",
     "reactPlayerVimeo.js": "/usestate-examples-react/static/js/reactPlayerVimeo.8c991693.chunk.js",
@@ -21,8 +21,8 @@
     "static/media/video3.mp4": "/usestate-examples-react/static/media/video3.55b063e2fdaeb5386d50.mp4",
     "static/media/video1.mp4": "/usestate-examples-react/static/media/video1.7247a6f707e7b182850d.mp4",
     "index.html": "/usestate-examples-react/index.html",
-    "main.acb7c4a8.css.map": "/usestate-examples-react/static/css/main.acb7c4a8.css.map",
-    "main.a5051316.js.map": "/usestate-examples-react/static/js/main.a5051316.js.map",
+    "main.b8e7c28c.css.map": "/usestate-examples-react/static/css/main.b8e7c28c.css.map",
+    "main.f613f491.js.map": "/usestate-examples-react/static/js/main.f613f491.js.map",
     "reactPlayerYouTube.4b3af3ee.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerYouTube.4b3af3ee.chunk.js.map",
     "reactPlayerSoundCloud.8fcec574.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerSoundCloud.8fcec574.chunk.js.map",
     "reactPlayerVimeo.8c991693.chunk.js.map": "/usestate-examples-react/static/js/reactPlayerVimeo.8c991693.chunk.js.map",
@@ -39,7 +39,7 @@
     "787.4c159c96.chunk.js.map": "/usestate-examples-react/static/js/787.4c159c96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acb7c4a8.css",
-    "static/js/main.a5051316.js"
+    "static/css/main.b8e7c28c.css",
+    "static/js/main.f613f491.js"
   ]
 }
