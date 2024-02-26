@@ -3,8 +3,8 @@ import '../index.css';
 
 const UseStateExample2 = () => {
     const [firstname,setFirstName]= useState("");
-    const [email,setEmail] = useState(" ");
-    const [password,setPassword] = useState(" ");
+    const [email,setEmail] = useState("");
+    const [password,setPassword] = useState("");
 
     // const changeFirstName = (e)=>{
     //     console.log(e.target.value);

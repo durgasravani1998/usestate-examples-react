@@ -5,11 +5,12 @@ const UseStateExample1 = () => {
     const [showData, setShowData]=useState(false);
 
     const handleChange=()=>{
-        return(
+        // return(
         setShowData(!showData)
-        )
+        // )
     }
   return (
+    
     <div>
         <button onClick={handleChange} >{showData ? "hide" : "show"}</button>
         {/* {

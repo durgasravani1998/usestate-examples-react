@@ -4,6 +4,7 @@ const UseStateExample3 = () => {
     
 
     const [list, setList] = useState([]);
+
     const [message, setMessage]=useState({
         text:"",
         id:"",
@@ -73,10 +74,12 @@ const UseStateExample3 = () => {
                         id:editingItem.id
                     };
 
-                } else{
+                } 
+                else{
                     return eachItem;
                 }
             });
+            console.log(newTodoos);
             setList(newTodoos);
             setMessage({
                 text:"",
@@ -90,6 +93,8 @@ const UseStateExample3 = () => {
 
     
 console.log(list.length);
+
+
 
 
   return (
