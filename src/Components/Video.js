@@ -77,6 +77,12 @@ const VideoDisplay = () => {
       setCurrentVideo((prev) => (prev === 0 ? videos.length - 1 : prev - 1));
     }
   };
+    useEffect(() => {
+    document.documentElement.style.overflow = 'hidden'; // Remove scroll bar
+    return () => {
+      document.documentElement.style.overflow = 'auto'; // Restore scroll bar
+    };
+  }, []);
 
   const handleLike = () => {
     setLikes((prevLikes) => {
@@ -133,13 +139,13 @@ const VideoDisplay = () => {
       <div className='secondMain'>
         <div className='likeButton'>
           <button style={{ color: likes[currentVideo] ? 'blue' : 'gray' }} onClick={handleLike}>
-            Like
+          <i class="fa-regular fa-thumbs-up"></i>
           </button>
           <span>{likes[currentVideo] ? '1' : '0'}</span>
         </div>
         <div className='dislikeButton'>
           <button style={{ color: dislikes[currentVideo] ? 'blue' : 'gray' }} onClick={handleDislike}>
-            Dislike
+          <i class="fa-regular fa-thumbs-down"></i>
           </button>
           <span>{dislikes[currentVideo] ? '1' : '0'}</span>
         </div>
@@ -149,3 +155,5 @@ const VideoDisplay = () => {
 };
 
 export default VideoDisplay;
+
+{/* <i class="fa-regular fa-thumbs-up"></i> */}
