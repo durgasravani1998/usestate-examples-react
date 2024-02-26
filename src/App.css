@@ -1,153 +1,254 @@
-*{
-  margin:0px;
-  padding:0px;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
 .App{
-  background-color:#4620f0;
-  display: flex;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main{
-  width:50%;
-  min-width:350px;
-  background-color: white;
-  max-height: 100vh;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+.home{
+  display: grid;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink; */
 }
-
-.newtask{ 
-  /* width:300px;
-  height: 30px;
-  */
-
-  position: relative;
-  padding: 30px 20px;
-  display: flex;
-  justify-content: space-around;
-
-}
-
-.taskinfo{
-  width: 75%;
-  height: 35px;
-  border: 2px solid #d1d3d8;
-  border-radius: 6px;
-  color: #111115;
-  font-weight: 400;
-  padding-left: 5px; 
-
-}
-.taskinfo:focus{
-  outline: none;
-  border-color:#A020F0;
-}
-
-.add{
-  width: 15%;
-  height: 35px;
-  border-radius: 5px;
-  font-weight: 500;
-  background-color:#A020F0;
-  border: none;
-  color: white;
-  cursor: pointer;
-  outline: none;
-  
-}
-
-.tasklist{
-  margin-bottom: 9px;
-  padding: 10px 20px;
+.sidenav {
+  height: 100%; 
+  width: 5%; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #e4d8d8; 
+  overflow-x: hidden; 
+  padding-top: 60px;   
+  transition: 0.5s; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100%;
-  /* overflow: hidden; */
-  
   
 }
-/* .taskhead{
-  background-color: pink;
-} */
-.task{
+.sidenav i{
+  color:rgb(35, 22, 5);
+}
+.nav-link{
+  margin-bottom: 50%;
+  padding: 10%;
+}
+.main{
   display: flex;
-  justify-content: flex-start;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
-  background-color: #7c4dff81;
-  height: 45px;
-  margin-bottom: 9px;
-  padding: 5px 10px;
-  cursor: pointer;
-  max-width: 100%;
-  border-radius: 5px;
-  border: 1px solid #939697;
 }
-h4{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.firstMain{
+  /* background-color: pink; */
+  width: 350px;
+  height: 90vh;
+
 
 }
-.text{
-  justify-self: flex-start;
-  padding-left: 5px;
-
+.secondMain{
+  width: 100px;
+  
+  /* background-color: yellow; */
+  margin-top: 0%;
+  padding: 1%;
+  /* margin-left:1%; */
+ 
 }
-.buttons{
+.videoMain{
   display: flex;
+  flex-direction: row;
+  /* background-color: brown; */
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  left:98%;
+  top:20%;
+  margin-left:5%;
+  width: 300px;
+  height: 100px;
+  /* background-color: aqua; */
+  color: rgb(35, 22, 5);
+}
+
+
+
+.likeButton{
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+.dislikeButton{
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+span{
+  margin-left: 10px;
+}
+button{
+  /* width: 40%; */
+  border: none;
+}
+
+i{
+  font-size: 25px;
+}
+
+@media screen and (max-width:768px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   .App{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidenav {
+    height:2%; 
+    width: 100%; 
+    position: fixed;     
+    z-index: 1; 
+    /* top: 0; */
+    top: unset;
+    left: 0;
+    bottom: 0;
+    background-color: #e4d8d8; /* Black*/
+    overflow-y: hidden; 
+    padding-bottom: 2px;
+    transition: 0.5s; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+  }
+   .nav-link{
+   
+    background-color: none;
+    margin: 3%;
+    padding: 5%;
+    margin-bottom: 10%;
+    
+    
+  
+  }
+  .sidenav i{
+    color:rgb(35, 22, 5);
+    font-size: 20px;
+    
+  }
+  .home{
+    display: grid;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: pink; */
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:76vh ;
+    height:100vh ;
+    position: relative;
+  }
+  .firstMain{
+    
+    height: 90vh;
+  
+  }
+  .videoMain{
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    position: relative;
+  }
+  .title{
+    position: absolute;
+    left:10%;
+    top:80%;
+    margin-left:5%;
+    width: 300px;
+    height: 100px;
+    /* background-color: aqua; */
+    color: rgb(35, 22, 5);
+  }
+  
+  
+  .secondMain{
+    width: 100px;
+    /* background-color: yellow; */
+    margin-top: 0%;
+    padding: 1%;
+    /* margin-left:1%; */
+    z-index: 1;
+    position: absolute;
+    right: 30px;
+    bottom: 150px;
+    /* background-color: red; */
+    
+   
+  }
+  .likeButton{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: yellow; */
+  
+  }
+  .dislikeButton{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  
+  }
+  span{
+    margin-left: 10px;
+  }
+  button{
+    /* width: 40%; */
+    border: none;
+    background-color:transparent;
+    
+    
+  }
+  
+  i{
+    font-size: 25px;
+    background-color:none;
+    /* border-radius: 0%; */
+    z-index: 1;
+    color: rgb(15, 13, 13);
+    
+    
+  }
+  
+
   
 }
-
-.delete{
-  color: #d11a2a;
-  border-radius: 5px;
-  border: none;
-  background: none;
-  cursor: pointer;
-  outline: none; 
-  /* padding-left: 5px; */ 
-  /* justify-self: flex-end; */
-  padding: 5px 0px 5px 5px ;
-  display: inline-block;
-  justify-self: flex-end;
-  
-}
-
-.edit{
-  color: rgb(81, 155, 81);
-  border-radius: 5px;
-  border: none;
-  background: none;
-  cursor: pointer;
-  outline: none;
-  /* padding-left: 50px; */
-  /* justify-self: flex-end; */
-  /* align-self: flex-end; */
-  padding: 5px 0px 5px 5px;
-  margin-left:5px;
-  display: inline-block;
-  justify-self: flex-end;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
