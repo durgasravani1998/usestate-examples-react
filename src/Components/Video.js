@@ -125,7 +125,7 @@ const VideoDisplay = () => {
           <div className='videoMain'>
             <div className='video'>
               <ReactPlayer
-                width={350}
+                width={300}
                 height={600}
                 url={URL}
                 playing={index === currentVideo}
@@ -137,8 +137,8 @@ const VideoDisplay = () => {
         </div>
       ))}
       <div className='secondMain'>
-        <div className='secondMainIn'> 
-          <div className=''>
+         
+          
             <div className='likeButton'>          <button style={{ color: likes[currentVideo] ? 'blue' : 'gray' }} onClick={handleLike}>
           <i class="fa-regular fa-thumbs-up"></i>
           </button>
@@ -152,8 +152,7 @@ const VideoDisplay = () => {
           </button>
           <span>{dislikes[currentVideo] ? '1' : '0'}</span>
         </div>
-        </div>
-      </div>
+      
       </div>
 
     </div>
